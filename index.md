@@ -12,7 +12,7 @@ $ curl https://api.company.com/v1/json_service
   -X POST
   -H "Content-type:text/xml"
   -d '<SomeXML>'
-For GET requests, use the Accept header instead of the Content-type header.|
+For GET requests, use the Accept header instead of the Content-type header.]
 |429 Too Many Requests |The rate limit was exceeded on Quota or Spike Arrest policies. The current default status code for exceeding the rate limit is 500, but the default may change to 429 in the future. See Spike Arrest policy and Quota policy for information on how to change the 500 to a 429.|
 |500 Internal Server Error |Note: Apigee Edge organizations can be configured to return an HTTP status code of 429 (Too Many Requests) instead of 500 for all requests that exceed a rate limit set by some rate-limiting policies. For more information, see Spike Arrest policy and Quota policy.|
 |502 Bad Gateway| See 502 Bad Gateway.]
