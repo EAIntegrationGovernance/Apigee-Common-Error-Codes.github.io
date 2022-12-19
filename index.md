@@ -7,7 +7,6 @@
 |406 Not Acceptable |The API cannot produce any responses that are supported by the application.|
 |409 Conflict |Indicates a conflict with an existing entity. For example, you attempted to create a cache using a name that already exists.|
 |415 Unsupported media type |Typically, this error occurs on POST or PUT requests when the Content-type HTTP header is set to the wrong value. For example, an HTTP 415 error is returned if you POST the following to an API that only supports JSON:
-
   $ curl https://api.company.com/v1/json_service
     -X POST
     -H "Content-type:text/xml"
