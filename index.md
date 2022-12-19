@@ -11,5 +11,6 @@
 |500 Internal Server Error |Note: Apigee Edge organizations can be configured to return an HTTP status code of 429 (Too Many Requests) instead of 500 for all requests that exceed a rate limit set by some rate-limiting policies. For more information, see Spike Arrest policy and Quota policy.|
 |502 Bad Gateway|See: https://docs.apigee.com/api-platform/troubleshoot/runtime/502-bad-gateway |
 |503 Service Unavailable |See: https://docs.apigee.com/api-platform/troubleshoot/runtime/503-service-unavailable |  
-|504 Gateway Timeout|See: https://docs.apigee.com/api-platform/troubleshoot/runtime/504-gateway-timeout |  
+|504 Gateway Timeout|See: [timeout] (https://docs.apigee.com/api-platform/troubleshoot/runtime/504-gateway-timeout) |  
+
 Hi
