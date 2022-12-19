@@ -13,4 +13,11 @@
 |503 Service Unavailable |See: https://docs.apigee.com/api-platform/troubleshoot/runtime/503-service-unavailable |  
 |504 Gateway Timeout|See: [timeout] (https://docs.apigee.com/api-platform/troubleshoot/runtime/504-gateway-timeout) |  
 
-Hi
+<br/>
+Example Payload<br/>
+{<br/>
+"httpCode": "401",<br/>
+"httpMessage": "Unauthorized",<br/>
+"moreInformation": "This server could not verify that you are authorized to access the URL"<br/>
+}<br/>
+
