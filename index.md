@@ -15,9 +15,14 @@
 
 <br/>
 Example Payload<br/>
-{<br/>
-"httpCode": "401",<br/>
-"httpMessage": "Unauthorized",<br/>
-"moreInformation": "This server could not verify that you are authorized to access the URL"<br/>
-}<br/>
+<br/>
+{
+   "fault":{
+      "faultstring":"Decompression failure at request",
+      "detail":{
+         "errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"
+      }
+   }
+}
+ <br/>
 
