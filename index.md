@@ -17,12 +17,12 @@
 Example Payload for HTTP/1.1 400 Bad Request<br/>
 <br/>
 {<br/>
-   "fault":{<br/>
-      "faultstring":"Decompression failure at request",<br/>
-      "detail":{<br/>
-         "errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"<br/>
-      }<br/>
-   }<br/>
+&nbsp;&nbsp;"fault":{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"faultstring":"Decompression failure at request",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"detail":{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;}<br/>
 }<br/>
 
 
