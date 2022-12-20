@@ -14,13 +14,13 @@
 |504 Gateway Timeout|See: [Gateway Timeout](https://docs.apigee.com/api-platform/troubleshoot/runtime/504-gateway-timeout) |  
 
 <br/>
-Example Payload for HTTP/1.1 400 Bad Request<br/>
+Example Payload for HTTP/1.1 404 Not Found<br/>
 <br/>
 {<br/>
 &nbsp;&nbsp;"fault":{<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;"faultstring":"Decompression failure at request",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"faultstring":"Unable to identify proxy for host: default and url: \/oauth2\/token",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;"detail":{<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"errorcode":"messaging.adaptors.http.flow.ApplicationNotFound"<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;}<br/>
 &nbsp;&nbsp;}<br/>
 }<br/>
