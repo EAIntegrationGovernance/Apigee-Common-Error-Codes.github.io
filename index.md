@@ -14,15 +14,15 @@
 |504 Gateway Timeout|See: [Gateway Timeout](https://docs.apigee.com/api-platform/troubleshoot/runtime/504-gateway-timeout) |  
 
 <br/>
-Example Payload<br/>
+Example Payload for HTTP/1.1 400 Bad Request<br/>
 <br/>
-{
-   "fault":{
-      "faultstring":"Decompression failure at request",
-      "detail":{
-         "errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"
-      }
-   }
-}
- <br/>
+{<br/>
+   "fault":{<br/>
+      "faultstring":"Decompression failure at request",<br/>
+      "detail":{<br/>
+         "errorcode":"messaging.adaptors.http.flow.DecompressionFailureAtRequest"<br/>
+      }<br/>
+   }<br/>
+}<br/>
+
 
